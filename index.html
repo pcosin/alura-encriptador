@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Alura - Encriptador</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img class="logo" src="./assets/img/logo.png" alt="logo de Alura" />
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="wrapper grid-column">
+        <div class="main-text">
+          <textarea
+            type="text"
+            class="main-input"
+            placeholder="Ingrese el texto aquí"
+            name=""
+            id=""
+            rows="10"
+          ></textarea>
+        </div>
+        <div>
+          <div class="clarification flex">
+            <img class="icon" src="./assets/img/icon.png" alt="icono" />
+            <p class="clarification-text">Solo letras minúsculas y sin tildes</p>
+          </div>
+          <div class="buttons flex-buttons">
+            <button class="btn encriptar">Encriptar</button>
+            <button class="btn desencriptar">Desencriptar</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="aside grid-column">
+        <div class="second-text"></div>
+        <div class="info-togle">
+          <div class="img-text">
+            <img src="./assets/img/muneco.svg" alt="muneco" />
+          </div>
+          <div class="aside-text-none">
+            <h3>Ningún mensaje fue encontrado</h3>
+            <p>Ingresa el texto que desees encriptar o desencriptar</p>
+          </div>
+        </div>
+
+        <button class="btn copiar">Copiar</button>
+      </aside>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
